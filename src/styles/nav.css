@@ -20,6 +20,7 @@
     width: 40px; /* Adjust the width as needed */
     height: auto; /* Automatically adjust the height */
     margin-right: 10px; /* Add spacing between the logo and other elements */
+    margin-left: 10px;
     border-top-right-radius: 10px;
   }
 
@@ -72,3 +73,5 @@
   .searchbox svg:hover{
     fill: coral;
   }
+
+ 

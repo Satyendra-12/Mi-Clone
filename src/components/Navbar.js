@@ -20,14 +20,14 @@ const Navbar = () => {
           <img id="logoImage" src={logo} alt="Not" />
         </NavLink>
       </div>
-      <NavLink className="navlinks" to="/#miphones">Mi Phones</NavLink>
-      <NavLink className="navlinks" to="/#redmiphones">Redmi Phones</NavLink>
-      <NavLink className="navlinks" to="/#tv">TV</NavLink>
-      <NavLink className="navlinks" to="/#laptops">Laptops</NavLink>
-      <NavLink className="navlinks" to="/#lifestyle">Fitness & Lifestyle</NavLink>
-      <NavLink className="navlinks" to="/#home">Home</NavLink>
-      <NavLink className="navlinks" to="/#audio">Radio</NavLink>
-      <NavLink className="navlinks" to="/#accessories">Accessories</NavLink>
+      <NavLink className="navlinks" to="/">Home</NavLink>
+      <NavLink className="navlinks" to="/miphones">Mi Phones</NavLink>
+      <NavLink className="navlinks" to="/redmiphones">Redmi Phones</NavLink>
+      <NavLink className="navlinks" to="/tv">TV</NavLink>
+      <NavLink className="navlinks" to="/laptops">Laptops</NavLink>
+      <NavLink className="navlinks" to="/lifestyle">Fitness & Lifestyle</NavLink>
+      <NavLink className="navlinks" to="/audio">Radio</NavLink>
+      <NavLink className="navlinks" to="/accessories">Accessories</NavLink>
 
       <div className="searchbox">
         <input type="text" name="search" placeholder="Search Products" />

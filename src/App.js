@@ -13,10 +13,12 @@ import ProductReviews from './components/ProductReviews';
 import Videos from './components/Videos';
 import Banner from './components/Banner';
 import Footer from './components/Footer';
+import NavOptions from './components/NavOptions';
 function App() {
   return (
     <Router>
       <PreNavbar />
+      <NavOptions miPhones={data.miPhones} redmiPhones={data.redmiPhones} tv={data.tv} laptop={data.laptop} fitnessAndLifeStyle={data.fitnessAndLifeStyle} home={data.home} audio={data.audio}  accessories={data.accessories}/>
       <Navbar />
       <Slider start={data.banner.start} />
       <Offers offer={data.offer} />
